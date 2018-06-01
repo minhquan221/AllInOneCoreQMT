@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllInOne.Web", "AllInOne.We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllInOne.Web.Tests", "AllInOne.Web.Tests\AllInOne.Web.Tests.csproj", "{44AFAD4C-AF60-4D6F-9451-A94771FFBC39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllInOne.Services", "AllInOne.Services\AllInOne.Services.csproj", "{56CA9CBC-C577-44D4-9A82-0E915AC69933}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{44AFAD4C-AF60-4D6F-9451-A94771FFBC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44AFAD4C-AF60-4D6F-9451-A94771FFBC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44AFAD4C-AF60-4D6F-9451-A94771FFBC39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CA9CBC-C577-44D4-9A82-0E915AC69933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CA9CBC-C577-44D4-9A82-0E915AC69933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CA9CBC-C577-44D4-9A82-0E915AC69933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CA9CBC-C577-44D4-9A82-0E915AC69933}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
