@@ -1,0 +1,14 @@
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\bin\Debug\netcoreapp2.0\AllInOne.API.deps.json
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\bin\Debug\netcoreapp2.0\AllInOne.API.runtimeconfig.json
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\bin\Debug\netcoreapp2.0\AllInOne.API.runtimeconfig.dev.json
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\bin\Debug\netcoreapp2.0\AllInOne.API.dll
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\obj\Debug\netcoreapp2.0\AllInOne.API.csprojResolveAssemblyReference.cache
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\obj\Debug\netcoreapp2.0\AllInOne.API.csproj.CoreCompileInputs.cache
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\obj\Debug\netcoreapp2.0\AllInOne.API.AssemblyInfoInputs.cache
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\obj\Debug\netcoreapp2.0\AllInOne.API.AssemblyInfo.cs
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\bin\Debug\netcoreapp2.0\AllInOne.API.pdb
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\obj\Debug\netcoreapp2.0\AllInOne.API.RazorAssemblyInfo.cache
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\obj\Debug\netcoreapp2.0\AllInOne.API.RazorAssemblyInfo.cs
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\obj\Debug\netcoreapp2.0\AllInOne.API.RazorTargetAssemblyInfo.cache
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\obj\Debug\netcoreapp2.0\AllInOne.API.dll
+F:\Svn\GitSvn\SellWeb\trunk\AllInOne.API\obj\Debug\netcoreapp2.0\AllInOne.API.pdb
