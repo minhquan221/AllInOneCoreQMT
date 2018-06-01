@@ -12573,11 +12573,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "F:\\Svn\\GitSvn\\SellWeb\\trunk\\AllInOne.API\\AllInOne.API.csproj",
+      "projectUniqueName": "F:\\Svn\\AllInOneCore\\trunk\\AllInOne.API\\AllInOne.API.csproj",
       "projectName": "AllInOne.API",
-      "projectPath": "F:\\Svn\\GitSvn\\SellWeb\\trunk\\AllInOne.API\\AllInOne.API.csproj",
+      "projectPath": "F:\\Svn\\AllInOneCore\\trunk\\AllInOne.API\\AllInOne.API.csproj",
       "packagesPath": "C:\\Users\\minhq\\.nuget\\packages\\",
-      "outputPath": "F:\\Svn\\GitSvn\\SellWeb\\trunk\\AllInOne.API\\obj\\",
+      "outputPath": "F:\\Svn\\AllInOneCore\\trunk\\AllInOne.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
