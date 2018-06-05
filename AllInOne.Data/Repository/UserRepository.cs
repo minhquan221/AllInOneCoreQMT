@@ -5,25 +5,38 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AllInOne.Data.Interface;
-using AllInOne.Data.Repository.Interface;
+using AllInOne.Data.Infrastructure;
 using AllInOne.Models;
-using AllInOne.Models.Interface;
 
 namespace AllInOne.Data.Repository
 {
-    public class UserRepository: BaseRepository<IUser>, IUserRepository
+    public class UserRepository: BaseRepository<User>, IUserRepository
     {
-
-        public UserRepository(DbContext context, IUnitOfWorkAsync unitOfWork): base(context, unitOfWork)
+        private BaseContext _dbContext;
+        public UserRepository(BaseContext dbContext) : base(dbContext)
         {
-            
+            _dbContext = dbContext;
         }
-        #region override method BaseRepository
+
+        #region Override GenericRepository
+
+
+
         #endregion
 
-        #region overload method BaseRepository
-        #endregion
+        #region Overload GenericRepository
 
+        public bool Update(User t)
+        {
+            if (t == null)
+                return false;
+            User result = Update(t, t.Id);
+            if (result == null)
+                return false;
+            return true;
+        }
+
+        #endregion
 
     }
 }

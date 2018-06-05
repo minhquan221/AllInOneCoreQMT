@@ -50,6 +50,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
@@ -79,6 +80,8 @@
     <Compile Include="BaseService.cs" />
     <Compile Include="Interface\IBaseService.cs" />
     <Compile Include="Interface\IUserService.cs" />
+    <Compile Include="Provider\BaseContextFactory.cs" />
+    <Compile Include="Provider\Interface\IBaseContextFactory.cs" />
     <Compile Include="UserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -12,3 +12,11 @@ F:\Svn\MyProj\AiOCore\AllinOneCore\Lib.Data\obj\Debug\Lib.Data.csprojResolveAsse
 F:\Svn\MyProj\AiOCore\AllinOneCore\Lib.Data\obj\Debug\Lib.Data.csproj.CoreCompileInputs.cache
 F:\Svn\MyProj\AiOCore\AllinOneCore\Lib.Data\obj\Debug\Lib.Data.dll
 F:\Svn\MyProj\AiOCore\AllinOneCore\Lib.Data\obj\Debug\Lib.Data.pdb
+D:\Git\trunk\Lib.Data\bin\Debug\Lib.Data.dll.config
+D:\Git\trunk\Lib.Data\bin\Debug\Lib.Data.dll
+D:\Git\trunk\Lib.Data\bin\Debug\Lib.Data.pdb
+D:\Git\trunk\Lib.Data\bin\Debug\mysql.data.dll
+D:\Git\trunk\Lib.Data\obj\Debug\Lib.Data.csproj.CoreCompileInputs.cache
+D:\Git\trunk\Lib.Data\obj\Debug\Lib.Data.csproj.CopyComplete
+D:\Git\trunk\Lib.Data\obj\Debug\Lib.Data.dll
+D:\Git\trunk\Lib.Data\obj\Debug\Lib.Data.pdb

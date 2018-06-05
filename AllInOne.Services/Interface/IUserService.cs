@@ -1,4 +1,5 @@
-﻿using AllInOne.Models.Interface;
+﻿using AllInOne.Models;
+using AllInOne.Models.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace AllInOne.Services
 {
     public interface IUserService
     {
-        IEnumerable<IUser> GetListUserByUserNameEmail(string UserName, string Email);
+        IEnumerable<User> GetAll();
     }
 }

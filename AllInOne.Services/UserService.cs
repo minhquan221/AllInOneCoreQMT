@@ -7,23 +7,24 @@ using System.Threading.Tasks;
 using AllInOne.Data.Repository;
 using System.Linq.Expressions;
 using AllInOne.Models;
+using AllInOne.Data.Infrastructure;
+using AllInOne.Data.Interface;
 
 namespace AllInOne.Services
 {
-    public class UserService: BaseService<UserRepository>, IUserService
+    public class UserService : BaseService, IUserService
     {
-        private UserRepository _userRepository;
-        public UserService(UserRepository userRepository): base(userRepository)
+        private readonly IUnitOfWork _uow;
+        private readonly IUserRepository _userRepository;
+        public UserService(IUnitOfWork unitOfWork, IUserRepository userRepository) : base(unitOfWork)
         {
+            _uow = unitOfWork;
             _userRepository = userRepository;
         }
-        public IEnumerable<IUser> GetListUserByUserNameEmail(string UserName, string Email)
+
+        public IEnumerable<User> GetAll()
         {
-            Expression<Func<IUser, object>>[] expressions = {
-                x => x.Username == UserName,
-                x =>  x.Email == Email
-            };
-            return _userRepository.Get(expressions);
+            return _userRepository.GetAll().ToList();
         }
     }
 }
