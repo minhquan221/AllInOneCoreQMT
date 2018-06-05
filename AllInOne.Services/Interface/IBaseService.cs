@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AllInOne.Services
 {
-    public interface IBaseService
+    public interface IBaseService<T> where T: class
     {
     }
 }

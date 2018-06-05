@@ -69,3 +69,4 @@ F:\Svn\AllInOneCore\trunk\AllInOne.Core\bin\Debug\System.Runtime.CompilerService
 F:\Svn\AllInOneCore\trunk\AllInOne.Core\obj\Debug\AllInOne.Core.csproj.CoreCompileInputs.cache
 F:\Svn\AllInOneCore\trunk\AllInOne.Core\obj\Debug\AllInOne.Core.dll
 F:\Svn\AllInOneCore\trunk\AllInOne.Core\obj\Debug\AllInOne.Core.pdb
+F:\Svn\AllInOneCore\trunk\AllInOne.Core\obj\Debug\AllInOne.Core.csprojResolveAssemblyReference.cache

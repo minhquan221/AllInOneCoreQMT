@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AllInOne.Services
 {
-    public class BaseService<T>: IBaseService where T: class
+    public class BaseService<T>: IBaseService<T> where T: class
     {
         public BaseService(T t)
         {

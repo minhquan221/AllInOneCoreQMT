@@ -1,4 +1,7 @@
-﻿using System;
+﻿using AllInOne.Web.Autof;
+using Autofac;
+using Autofac.Integration.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,6 +19,14 @@ namespace AllInOne.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            var builder = new Autofac.ContainerBuilder();
+            builder.RegisterControllers(typeof(MvcApplication).Assembly).PropertiesAutowired();
+            builder.RegisterModule(new RepositoryModule());
+            builder.RegisterModule(new ServiceModule());
+            builder.RegisterModule(new BaseModule());
+            var container = builder.Build();
+            DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
         }
     }
 }

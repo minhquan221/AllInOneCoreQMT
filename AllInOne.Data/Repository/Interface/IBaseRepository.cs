@@ -9,15 +9,18 @@ namespace AllInOne.Data.Repository.Interface
 {
     public interface IBaseRepository<T> where T : class
     {
-        T Insert(T t);
-
-        T Update(T t);
-
-        bool Delete(T t);
-
-        IEnumerable<T> Get(Expression<Func<T, object>>[] expressions);
-
-        IEnumerable<T> GetAll();
+        T Find(params object[] keyValues);
+        IQueryable<T> SelectQuery(string query, params object[] parameters);
+        void Insert(T entity);
+        void ApplyChanges(T entity);
+        void InsertRange(IEnumerable<T> entities);
+        void InsertOrUpdateGraph(T entity);
+        void InsertGraphRange(IEnumerable<T> entities);
+        void Update(T entity);
+        void Delete(params object[] keyValues);
+        void Delete(T entity);
+        IQueryable<T> Queryable();
+        IBaseRepository<T> GetRepository<T>() where T : class;
 
     }
 }
